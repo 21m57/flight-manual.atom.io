@@ -1,0 +1,47 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gulp-connect > tiny-lr > body-parser > debug:
+        patched: '2020-06-02T18:55:32.186Z'
+  'npm:extend:20180424':
+    - gulp > gulp-cli > liftoff > extend:
+        patched: '2020-06-02T18:55:32.186Z'
+    - gulp > vinyl-fs > glob-stream > extend:
+        patched: '2020-06-02T18:55:32.186Z'
+    - gulp-sass > node-sass > request > extend:
+        patched: '2020-06-02T18:55:32.186Z'
+    - gulp-sass > node-sass > node-gyp > request > extend:
+        patched: '2020-06-02T18:55:32.186Z'
+  'npm:hoek:20180212':
+    - gulp-sass > node-sass > request > hawk > hoek:
+        patched: '2020-06-02T18:55:32.186Z'
+    - gulp-sass > node-sass > request > hawk > boom > hoek:
+        patched: '2020-06-02T18:55:32.186Z'
+    - gulp-sass > node-sass > request > hawk > sntp > hoek:
+        patched: '2020-06-02T18:55:32.186Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > hoek:
+        patched: '2020-06-02T18:55:32.186Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-06-02T18:55:32.186Z'
+    - gulp-sass > node-sass > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-06-02T18:55:32.186Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-06-02T18:55:32.186Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-06-02T18:55:32.186Z'
+  SNYK-JS-LODASH-567746:
+    - gulp-sass > node-sass > sass-graph > lodash:
+        patched: '2020-06-02T18:55:32.186Z'
+    - gulp-sass > node-sass > gaze > globule > lodash:
+        patched: '2020-06-02T18:55:32.186Z'
+  'npm:ms:20170412':
+    - gulp-connect > tiny-lr > body-parser > debug > ms:
+        patched: '2020-06-02T18:55:32.186Z'
+  'npm:stringstream:20180511':
+    - gulp-sass > node-sass > request > stringstream:
+        patched: '2020-06-02T18:55:32.186Z'
+    - gulp-sass > node-sass > node-gyp > request > stringstream:
+        patched: '2020-06-02T18:55:32.186Z'
